@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Independent Mobile Engineer | Android + iOS</title>
+  <meta name="description" content="Independent mobile software engineer building premium Android and iOS apps." />
+  <link rel="canonical" href="https://your-domain.com/index.html" />
+  <link rel="alternate" hreflang="en" href="https://your-domain.com/index.html" />
+  <link rel="alternate" hreflang="it" href="https://your-domain.com/it.html" />
+  <link rel="alternate" hreflang="x-default" href="https://your-domain.com/index.html" />
+  <script>
+    (() => {
+      const params = new URLSearchParams(window.location.search);
+      const lang = (navigator.language || "").toLowerCase();
+      if (!params.has("lang") && lang.startsWith("it")) {
+        window.location.replace("it.html");
+      }
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true"></div>
+  <details class="lang-drawer">
+    <summary>EN</summary>
+    <div class="lang-menu">
+      <a href="index.html?lang=en" aria-current="page">English</a>
+      <a href="it.html?lang=it">Italiano</a>
+    </div>
+  </details>
+
+  <header class="site-header">
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>Android + iOS Apps That Feel Fast, Sharp, and Built for Real Users.</h1>
+        <p>
+          I help startups and businesses design, build, and launch mobile products from zero to store-ready.
+          I also deliver high-performance websites and web apps for product landing pages, client portals, and dashboards.
+          Clean architecture, modern UI, and performance-first engineering.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Start a Project</a>
+          <a class="btn btn-secondary" href="#services">See Capabilities</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="phone android">
+          <div class="phone-ui">
+            <div class="ui-header">
+              <div class="ui-avatar"></div>
+              <div class="ui-lines">
+                <div class="ui-row"></div>
+                <div class="ui-row short"></div>
+              </div>
+            </div>
+            <div class="ui-chart">
+              <span style="height: 38%"></span>
+              <span style="height: 62%"></span>
+              <span style="height: 48%"></span>
+              <span style="height: 76%"></span>
+              <span style="height: 58%"></span>
+            </div>
+            <div class="ui-pills">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <div class="phone ios">
+          <div class="phone-ui">
+            <div class="ui-header">
+              <div class="ui-avatar"></div>
+              <div class="ui-lines">
+                <div class="ui-row"></div>
+                <div class="ui-row short"></div>
+              </div>
+            </div>
+            <div class="ui-card"></div>
+            <div class="ui-list">
+              <div class="ui-list-item"></div>
+              <div class="ui-list-item"></div>
+              <div class="ui-list-item"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <h2>What I Build</h2>
+      <div class="grid cards">
+        <article class="card">
+          <h3>Android Development</h3>
+          <p>Kotlin and Compose apps engineered for speed, battery efficiency, and maintainable architecture.</p>
+          <p class="example-title">Example deliverables:</p>
+          <ul>
+            <li>Offline sync with Room + background workers</li>
+            <li>Secure auth and biometric unlock</li>
+            <li>Play Store release + crash monitoring setup</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>iOS Development</h3>
+          <p>SwiftUI-first products with polished motion, rock-solid networking, and quality release pipelines.</p>
+          <p class="example-title">Example deliverables:</p>
+          <ul>
+            <li>Modular Swift codebase ready to scale</li>
+            <li>Push notifications and in-app messaging</li>
+            <li>App Store submission and TestFlight workflow</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Cross-Platform Strategy</h3>
+          <p>Pragmatic planning to balance native quality, build speed, and long-term product growth.</p>
+          <p class="example-title">Example deliverables:</p>
+          <ul>
+            <li>MVP scope and feature prioritization roadmap</li>
+            <li>Shared backend/API contract definition</li>
+            <li>Analytics events and KPI measurement framework</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Website and Web App Development</h3>
+          <p>Modern, responsive websites and web apps built for conversion, performance, and maintainability.</p>
+          <p class="example-title">Example deliverables:</p>
+          <ul>
+            <li>Marketing websites optimized for lead generation</li>
+            <li>Client dashboards with secure login and data views</li>
+            <li>SEO baseline, analytics setup, and deployment pipeline</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="work" class="section section-accent">
+      <h2>Selected Project Patterns</h2>
+      <div class="grid work-samples">
+        <article>
+          <p class="work-kind">On-demand Service App</p>
+          <h3>Booking + live job tracking for field teams</h3>
+          <p>Built Android and iOS apps with real-time status updates, in-app payments, and location-aware scheduling.</p>
+          <p class="work-result">Result: 34% faster booking completion in first release cycle.</p>
+        </article>
+        <article>
+          <p class="work-kind">Health and Wellness Product</p>
+          <h3>Habit tracking with notification intelligence</h3>
+          <p>Delivered native reminder engine, streak dashboards, and offline-safe logs synced when back online.</p>
+          <p class="work-result">Result: 28% increase in week-4 retention after UX iteration.</p>
+        </article>
+        <article>
+          <p class="work-kind">Internal Enterprise Tool</p>
+          <h3>Inspection workflows for distributed operators</h3>
+          <p>Replaced legacy paper forms with camera capture, digital signatures, and role-based review screens.</p>
+          <p class="work-result">Result: Reporting time reduced from days to same-day delivery.</p>
+        </article>
+        <article>
+          <p class="work-kind">Website and Client Portal</p>
+          <h3>Lead-focused company site + secure customer area</h3>
+          <p>Delivered a responsive website with fast loading pages, integrated contact flows, and a protected client dashboard.</p>
+          <p class="work-result">Result: 41% increase in qualified inbound requests in 90 days.</p>
+        </article>
+      </div>
+      <div class="grid process">
+        <article>
+          <span>01</span>
+          <h3>Discovery</h3>
+          <p>Clarify business goals, users, and MVP scope.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Build</h3>
+          <p>Iterative delivery with weekly demos and measurable progress.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Launch + Improve</h3>
+          <p>Store release support, analytics, and ongoing optimization.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Let's Build Your App</h2>
+      <p>Send project details and I'll reply with next steps.</p>
+
+      <form
+        id="contact-form"
+        class="contact-form"
+        action="https://formsubmit.co/ajax/21b4b3515dfa294de6bba8d975dcc815"
+        method="POST"
+        novalidate
+      >
+        <label>
+          Name
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Project type
+          <select name="projectType" required>
+            <option value="">Choose one</option>
+            <option>Android App</option>
+            <option>iOS App</option>
+            <option>Android + iOS App</option>
+            <option>Website / Web App</option>
+            <option>Consulting</option>
+          </select>
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary" id="send-button">Send Message</button>
+      </form>
+      <p class="note" id="form-note"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> I.M.E.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
